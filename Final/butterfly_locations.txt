@@ -1,0 +1,15 @@
+Butterfly 1 - On the main page
+
+Butterfly 2 - Click the eye's pupil on the main page.
+
+Butterfly 3 - Copy and paste "/broken_link.html" in the last section of the url on the forum page.
+
+Butterfly 4 - Refresh the main page until the propaganda poster is changed to a "Chekhovs Butterflies" poster. Type the last part of the link from the image into the url. Either find the butterfly blindly, or press "CTRL+A" to select everything on the page. Revealing the butterfly's location on the webpage.
+
+Butterfly 5 - Refresh the main page until the word butterfly shows up in the navbar, click it, and find the real butterfly hidden at the bottom of the page.
+
+Butterfly 6 - Put all the '.', '/', '_', and letters that appear twice in the order from left to right, and it forms a weblink on the first forum page.
+
+Butterfly 7 - An invisible link on the third forum page.
+
+Butterfly 8 - A Caeser Cipher with the key of 1.

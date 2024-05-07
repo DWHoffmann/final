@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../media/the_nations_eye_logo.png" />
+    <link rel="stylesheet" href="../styles/enlistPage.css">
+    <link rel="stylesheet" href="../styles/textGlitchAnimation.css">
+    <title>Enlist for democracy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="glitch nope">
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+            <div class="line nope"><h1>Enlist for democracy</h1></div>
+        </div>
+        <form id="enlistmentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" required></textarea>
+            <label for="contact">Id Number:</label>
+            <input type="text" id="contact" name="contact" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    
+    <script src="../scripts/NavBar.js"></script>
+    <script src="../scripts/news_updater.js" defer></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var form = document.getElementById("enlistmentForm");
+        var container = document.querySelector(".container");
+        var thankYouMessage = document.createElement("div");
+        thankYouMessage.textContent = "Thank you for making the sacrifice to join The Nation's Eye, where your dedication paves the way for a brighter future. Your selflessness in choosing to explore uncharted territories and navigate uncertain waters is truly commendable. Together, we embark on a journey through the boundless expanse of the year 3005, where every sacrifice you make contributes to the shaping of our shared destiny. Your commitment is the cornerstone upon which our virtual society is built, and we are deeply grateful to have you as a stalwart companion in this noble endeavor of imagination and discovery.";
+        thankYouMessage.style.fontSize = "28px";
+        thankYouMessage.style.marginTop = "20px";
+        thankYouMessage.style.color = "#8c0404";
+        thankYouMessage.style.display = "none";
+        thankYouMessage.style.textAlign = "center";
+        thankYouMessage.style.width = "90%";
+    
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+        
+            form.style.display = "none";
+        
+            container.appendChild(thankYouMessage);
+            thankYouMessage.style.display = "block";
+        });
+    });
+    </script>
+</body>
+</html>
